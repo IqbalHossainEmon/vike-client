@@ -1,0 +1,13 @@
+.h3Border {
+  border-right: 2px solid red;
+}
+@media only screen and (max-width: 768px) {
+  .h3Border {
+    border-right: none;
+    text-align: center;
+    border-bottom: 2px solid red;
+  }
+  .h4design {
+    text-align: center;
+  }
+}
